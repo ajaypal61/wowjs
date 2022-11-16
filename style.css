@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* 1...................... index css start */
+
+
+
+
+/*......... main css start */
+
+
+/* sliders css start */
+
+.carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(11, 11, 11, 0.733);
+  z-index: 1;
+  height: 100%;
+}
+
+
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* sliders css end */
+
+
+/* best Developer css start  */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+/* best Developer css end  */
+
+
+ /* services css start  */
+ 
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 3.5rem;
+  border-radius: .75rem;
+}
+
+
+.section-bg {
+  background-color: #f3f5fa;
+}
+
+ /* services css end  */
+
+
+
+/*........................ index css end  */
+
+
+
+
+
+
+/*2..................... project css start */
+
+
+/* Web Developer Project css start */
+
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Web Developer Project css end */
+
+
+/* .....................project css end */
+
+
+/* 3.................. about css start  */
+
+
+/* about css start  */
+
+.aboutpadding{
+  padding: 5rem;
+}
+
+/* about css end  */
+
+
+/* why us css start  */
+
+.why-us .img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+@media (max-width: 992px) {
+  .why-us .img {
+    min-height: 400px;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .why-us .img {
+    min-height: 200px;
+  }
+  .aboutpadding{
+    padding: 20px;
+  }
+}
+
+/* why us css end  */
+
+
+
+/* skill css start  */
+
+ .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #37517e;
+}
+
+ .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+ .progress .skill {
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #37517e;
+}
+
+ .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+ .progress-bar-wrap {
+  background: #e8edf5;
+  height: 10px;
+}
+
+ .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #4668a2;
+}
+
+
+/* skill css end  */
+
+
+/*................. about css end  */
+
+
+
+
+
+
+
+
